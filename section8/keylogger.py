@@ -65,7 +65,7 @@ def run():
   return log
 
 if __name__ == '__main__':
-  print(runt())
+  print(run())
   print('done.')
 
 
