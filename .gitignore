@@ -162,3 +162,7 @@ cython_debug/
 *.pcap
 
 mytoken.txt
+
+# section 9
+key.pri
+key.pub
