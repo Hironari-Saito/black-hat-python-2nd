@@ -11,7 +11,7 @@ FILE_RENAMED_FROM = 4
 FILE_RENAMED_TO = 5
 
 FILE_LIST_DIRECTORY = 0x0001
-PATHS = ['c\\WINDOWS\\Temp', tempfile.gettempdir()]
+PATHS = ['c:\\WINDOWS\\Temp', tempfile.gettempdir()]
 
 def monitor(path_to_watch):
   h_directory = win32file.CreateFile(
